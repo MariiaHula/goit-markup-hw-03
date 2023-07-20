@@ -81,6 +81,9 @@ address {
   display: flex;
   align-items: center;
 }
+.site-nav {
+  padding: 24px 0;
+}
 .site-link,
 .auth-link {
   margin-right: 40px;
