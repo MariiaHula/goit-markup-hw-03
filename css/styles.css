@@ -322,9 +322,9 @@ address {
   border: 1px solid var(--accent);
   border-top: none;
 }
-.project-card-img {
+/* .project-card-img {
   border: none;
-}
+} */
 
 /* Site Footer */
 
