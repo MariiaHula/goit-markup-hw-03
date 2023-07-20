@@ -190,6 +190,18 @@ address {
   color: var(--primary-brand);
 }
 
+.nav-button-portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+  margin-bottom: 72px;
+}
+
+.nav-button-portfolio:last-child {
+  margin-right: 0;
+}
+
 .button:hover,
 .button:focus {
   border-radius: 4px;
@@ -340,18 +352,6 @@ address {
 .section-title-tools {
   display: flex;
   flex-direction: column;
-}
-
-.nav-button-portfolio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 24px;
-  margin-bottom: 72px;
-}
-
-.nav-button-portfolio:last-child {
-  margin-right: 0;
 }
 
 .row {
