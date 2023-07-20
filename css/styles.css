@@ -409,12 +409,12 @@ address {
 
 .logo-link {
   margin-bottom: 16px;
-  font-family: var(--second-font);
+  /* font-family: var(--second-font);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-brand);
+  color: var(--primary-brand); */
 }
