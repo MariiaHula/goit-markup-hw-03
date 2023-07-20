@@ -81,6 +81,10 @@ address {
   display: flex;
   align-items: center;
 }
+.site-nav {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .site-link,
 .auth-link {
   margin-right: 40px;
@@ -96,7 +100,6 @@ address {
   justify-content: flex-end;
 }
 .page-header {
-  /* padding: 24px 0; */
   border-bottom: 1px solid var(--accent);
 }
 /* Logo */
