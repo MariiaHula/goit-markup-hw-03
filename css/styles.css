@@ -74,14 +74,13 @@ address {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 24px 0;
 }
 
 .auth-nav,
 .site-nav {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .site-link,
 .auth-link {
@@ -368,12 +367,14 @@ address {
   display: flex;
   flex-direction: column;
   margin-right: 24px;
-  margin-bottom: 48px;
+  row-gap: 48px;
 }
 .project-card:nth-child(3n+3) {
   margin-right: 0;
 }
-
+.project-card:nth-child(-n+3) {
+  row-gap: 0;
+}
 
 .project-card-link {
   padding: 32px 16px;
