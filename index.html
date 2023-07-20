@@ -30,13 +30,13 @@
           <!-- General Navigation -->
 
           <ul class="site-nav list">
-            <li>
+            <li class="site-link">
               <a href="./index.html" class="link">Studio</a>
             </li>
-            <li>
+            <li class="site-link">
               <a href="./portfolio.html" class="link">Portfolio</a>
             </li>
-            <li>
+            <li class="site-link">
               <a href="" class="link">Contacts</a>
             </li>
           </ul>
@@ -46,12 +46,12 @@
 
         <address class="auth-nav-items">
           <ul class="auth-nav list">
-            <li>
+            <li class="auth-link">
               <a href="mailto:info@devstudio.com" class="link"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="auth-link">
               <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
             </li>
           </ul>
@@ -63,7 +63,7 @@
     <main>
       <!-- Hero image -->
       <section class="hero">
-        <div class="hero-container">
+        <div class="hero-container container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-button button">
             Order Service
@@ -72,10 +72,10 @@
       </section>
 
       <!-- Section Our Instruments -->
-      <section>
+      <section class="hidden-title">
         <!-- Додала заголовок для збереження наслідування, бачила, потім його можна приховати в CSS -->
         <div class="container">
-          <h2 class="hidden">Our Way</h2>
+          <h2 class="visually-hidden">Our Way</h2>
           <ul class="tool-items list">
             <li class="tool-items-function">
               <h3 class="tool-item">Strategy</h3>
@@ -111,12 +111,13 @@
 
       <!-- Section Our Service -->
 
-      <section class="">
+      <section class="title-work">
         <div class="section-title-works container">
           <h2 class="section-title">What Are We Doing</h2>
           <ul class="section-title-work list">
             <li class="section-title-list">
               <img
+                class="project-card-img"
                 src="./images/main-photo/img-main-page-1.jpg"
                 alt="our tools for your solutions"
                 width="360"
@@ -124,6 +125,7 @@
             </li>
             <li class="section-title-list">
               <img
+                class="project-card-img"
                 src="./images/main-photo/img-main-page-2.jpg"
                 alt="our tools for your solutions"
                 width="360"
@@ -131,6 +133,7 @@
             </li>
             <li class="section-title-list">
               <img
+                class="project-card-img"
                 src="./images/main-photo/img-main-page-3.jpg"
                 alt="our tools for your solutions"
                 width="360"
@@ -153,8 +156,10 @@
                 alt="photo of employee of WebStudio"
                 width="264"
               >
-              <h3 class="tool-item">Mark Guerrero</h3>
-              <p class="tool-item-text">Product Designer</p>
+              <div class="card-team-list">
+                <h3 class="tool-item">Mark Guerrero</h3>
+                <p class="tool-item-text">Product Designer</p>
+              </div>
             </li>
             <li class="card-team">
               <img
@@ -163,8 +168,10 @@
                 alt="photo of employee of WebStudio"
                 width="264"
               >
-              <h3 class="tool-item">Tom Ford</h3>
-              <p class="tool-item-text">Frontend Developer</p>
+              <div class="card-team-list">
+                <h3 class="tool-item">Tom Ford</h3>
+                <p class="tool-item-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="card-team">
               <img
@@ -173,8 +180,10 @@
                 alt="photo of employee of WebStudio"
                 width="264"
               >
-              <h3 class="tool-item">Camila Garcia</h3>
-              <p class="tool-item-text">Marketing</p>
+              <div class="card-team-list">
+                <h3 class="tool-item">Camila Garcia</h3>
+                <p class="tool-item-text">Marketing</p>
+              </div>
             </li>
             <li class="card-team">
               <img
@@ -183,8 +192,10 @@
                 alt="photo of employee of WebStudio"
                 width="264"
               >
-              <h3 class="tool-item">Daniel Wilson</h3>
-              <p class="tool-item-text">UI Designer</p>
+              <div class="card-team-list">
+                <h3 class="tool-item">Daniel Wilson</h3>
+                <p class="tool-item-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -193,8 +204,8 @@
 
     <!-- Footer -->
     <footer class="page-footer">
-      <div class="page-footer-container">
-        <a class="logo link" href="./index.html"
+      <div class="page-footer-block container">
+        <a class="logo-link link" href="./index.html"
           >Web<span class="logo-sd-word">Studio</span>
         </a>
         <p class="footer-text">
