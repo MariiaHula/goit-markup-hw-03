@@ -74,7 +74,6 @@ address {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 0;
 }
 
 .auth-nav,
@@ -95,9 +94,9 @@ address {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 24px 0;
 }
 .page-header {
+  padding: 24px 0;
   border-bottom: 1px solid var(--accent);
 }
 /* Logo */
