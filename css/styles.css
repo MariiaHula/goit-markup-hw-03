@@ -81,9 +81,6 @@ address {
   display: flex;
   align-items: center;
 }
-.site-nav {
-  padding: 24px 0;
-}
 .site-link,
 .auth-link {
   margin-right: 40px;
@@ -408,7 +405,6 @@ address {
 }
 
 .logo-link {
-  display: inline-block;
   margin-bottom: 16px;
   font-family: var(--second-font);
   font-size: 18px;
