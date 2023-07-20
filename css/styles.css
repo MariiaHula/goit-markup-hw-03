@@ -315,13 +315,15 @@ address {
 .project-card {
   display: flex;
   flex-direction: column;
-  padding-bottom: 32px;
+}
+
+.project-card-link {
+  padding: 32px 0 32px 16px;
   border: 1px solid var(--accent);
+  border-top: none;
 }
 .project-card-img {
-  display: flex;
-  margin-bottom: 32px;
-
+  border: none;
 }
 
 /* Site Footer */

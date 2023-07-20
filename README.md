@@ -1,2 +1,2 @@
-# goit-markup-hw-03
-HTML/CSS.Block model. Flexbox 
+# goit-markup-hw-02
+For-study-projects
