@@ -400,7 +400,7 @@ address {
 
 .logo-link {
   display: inline-block;
-  /* margin-bottom: 16px;
+  margin-bottom: 16px;
   font-family: var(--second-font);
   font-size: 18px;
   font-style: normal;
@@ -408,5 +408,5 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-brand); */
+  color: var(--primary-brand);
 }
