@@ -74,8 +74,7 @@ address {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .auth-nav,
@@ -190,14 +189,6 @@ address {
   background-color: var(--light);
   color: var(--primary-brand);
 }
-.nav-button-portfolio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 24px;
-  margin-top: 96px;
-  margin-bottom: 72px;
-}
 
 .button:hover,
 .button:focus {
@@ -236,18 +227,20 @@ address {
   overflow: hidden;
 }
 /* Second sections styles */
+
+.hidden-title {
+  padding: 120px 0;
+}
 .tool-items {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 120px 0;
 }
 
 .tool-items-function {
   display: flex;
   flex-direction: column;
   margin-right: 24px;
-  width: calc(100% - 72px) / 4;
 }
 
 .tool-items-function:last-child {
@@ -262,6 +255,7 @@ address {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  width: calc(100% - 72px) / 4;
 }
 
 .tool-item-text {
@@ -274,7 +268,10 @@ address {
 }
 
 /* Third sections styles */
-
+.section-title-works {
+  display: flex;
+  flex-direction: column;
+}
 .section-title {
   text-align: center;
   margin-bottom: 72px;
@@ -286,9 +283,7 @@ address {
   text-transform: capitalize;
   color: var(--dark);
 }
-.section-title-works {
-  display: flex;
-  flex-direction: column;
+.title-work {
   padding-bottom: 120px;
 }
 .section-title-work,
@@ -336,24 +331,43 @@ address {
 }
 
 /* Portfolio page styles */
+
+.portfolio {
+  padding-top: 96px; padding-bottom: 120px;  
+}
 .section-title-tools {
   display: flex;
   flex-direction: column;
 }
+
+.nav-button-portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+  margin-top: 96px;
+  margin-bottom: 72px;
+}
+
+.nav-button-portfolio:last-child {
+  margin-right: 0;
+}
+
+
 .row {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 48px 24px;
-  margin-bottom: 120px;
 }
+
 .project-card {
   display: flex;
   flex-direction: column;
 }
 
 .project-card-link {
-  padding: 32px 0 32px 16px;
+  padding: 32px 16px;
   border: 1px solid var(--accent);
   border-top: none;
 }
@@ -376,6 +390,11 @@ address {
   background-color: var(--dark);
 }
 
+.page-footer-block {
+  display: flex;
+  flex-direction: column;
+}
+
 .logo-link {
   display: inline-block;
   margin-bottom: 16px;
@@ -389,7 +408,4 @@ address {
   color: var(--primary-brand);
 }
 
-.page-footer-block {
-  display: flex;
-  flex-direction: column;
-}
+
