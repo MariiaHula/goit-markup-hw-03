@@ -81,13 +81,12 @@ address {
   display: flex;
   align-items: center;
 }
-.site-link {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+
 .site-link,
 .auth-link {
   margin-right: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .site-link:last-child,
