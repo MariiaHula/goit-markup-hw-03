@@ -83,7 +83,6 @@ address {
   align-items: flex-end;
 }
 
-
 /* Logo */
 .logo {
   margin-right: 76px;
@@ -107,7 +106,7 @@ address {
 
 .site-nav,
 .auth-nav {
-display: flex;
+  display: flex;
 }
 .auth-nav {
   height: 100%;
@@ -396,7 +395,6 @@ display: flex;
   background-color: var(--dark);
 }
 .page-footer-block {
-
 }
 
 .logo-link {
@@ -419,4 +417,3 @@ display: flex;
   background-color: var(--dark);
   color: var(--light);
 }
-
