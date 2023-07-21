@@ -70,10 +70,17 @@ address {
   padding: 0 15px;
 }
 
-.site-nav-items {
+.site-nav-items,
+.auth-nav-items {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.auth-nav-items {
+  /* display: flex;
+  align-items: center; */
+  justify-content: flex-end;
 }
 
 .auth-nav,
@@ -93,11 +100,7 @@ address {
 .auth-link:last-child {
   margin-right: 0;
 }
-.auth-nav-items {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
+
 .page-header {
   border-bottom: 1px solid var(--accent);
 }
