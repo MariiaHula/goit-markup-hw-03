@@ -395,7 +395,7 @@ address {
   background-color: var(--dark);
 }
 
-.logo-link {
+.container>.logo-link {
   display: inline-block;
   margin-bottom: 16px;
   font-family: var(--second-font);
