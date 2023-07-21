@@ -410,6 +410,7 @@ address {
 }
 
 .logo-link {
+  display: inline-block;
   margin-bottom: 16px;
   /* font-family: var(--second-font);
   font-size: 18px;
