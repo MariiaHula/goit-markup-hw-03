@@ -67,24 +67,15 @@ address {
 }
 
 .container {
-  display: flex;
-  justify-content: space-between;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-.site-nav-items {
-  display: flex;
-  align-items: center;
-}
-.auth-nav-items {
-  display: flex;
-  align-items: flex-end;
-}
-
 /* Logo */
 .logo {
+  display: inline-block;
+  align-items: center;
   margin-right: 76px;
   font-family: var(--second-font);
   font-size: 18px;
@@ -104,13 +95,18 @@ address {
 }
 /* Site navigation */
 
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-nav-items {
+  display: flex;
+  align-items: center;
+}
 .site-nav,
 .auth-nav {
   display: flex;
-}
-.auth-nav {
-  height: 100%;
-  align-items: center;
 }
 
 .site-link,
@@ -395,17 +391,8 @@ address {
   background-color: var(--dark);
 }
 
-.container>.logo-link {
-  display: inline-block;
+.logo-link {
   margin-bottom: 16px;
-  font-family: var(--second-font);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-brand);
 }
 
 .footer-text {
